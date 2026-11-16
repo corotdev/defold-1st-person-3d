@@ -1,0 +1,6 @@
+material: "/scene3d/materials/basic_grid_nickel.material"
+vertices: "/scene3d/assets/meshes/buildings_floor_10x10.buffer"
+textures: "/scene3d/assets/textures/grid_20x20.png"
+primitive_type: PRIMITIVE_TRIANGLES
+position_stream: "position"
+normal_stream: "normal"

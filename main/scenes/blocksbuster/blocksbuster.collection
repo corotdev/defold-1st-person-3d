@@ -1,0 +1,116 @@
+name: "shadows"
+instances {
+  id: "main_camera"
+  prototype: "/scene3d/camera/camera3d.go"
+  position {
+	x: -0.269
+	y: 10.570332
+	z: 10.883265
+  }
+  rotation {
+	x: -0.40577975
+	w: 0.9139709
+  }
+}
+instances {
+  id: "light_directional"
+  prototype: "/scene3d/camera/light_directional.go"
+  position {
+	x: 3.01
+	y: 2.42
+	z: 0.85
+  }
+  rotation {
+	x: -0.43348113
+	y: 0.42721757
+	z: 0.24543284
+	w: 0.75454754
+  }
+  component_properties {
+	id: "light_directional"
+	properties {
+	  id: "ambient_light_intensity"
+	  value: "0.9"
+	  type: PROPERTY_TYPE_NUMBER
+	}
+	properties {
+	  id: "directional_light_intensity"
+	  value: "0.35"
+	  type: PROPERTY_TYPE_NUMBER
+	}
+  }
+}
+instances {
+  id: "buildings_floor_10x10"
+  prototype: "/scene3d/prefabs/buildings/buildings_floor_10x10.go"
+}
+instances {
+  id: "blob_shadows"
+  prototype: "/scene3d/fx/blob_shadows.go"
+}
+instances {
+  id: "buster"
+  prototype: "/main/scenes/blocksbuster/buster.go"
+  position {
+	z: 3.5
+  }
+  scale3 {
+	x: 2.0
+	y: 2.0
+	z: 2.0
+  }
+}
+collection_instances {
+  id: "debug_ui"
+  collection: "/scene3d/debug/photo_mode/debug_ui.collection"
+}
+collection_instances {
+  id: "castle1"
+  collection: "/main/scenes/blocksbuster/castle.collection"
+}
+collection_instances {
+  id: "tower4"
+  collection: "/main/scenes/blocksbuster/tower.collection"
+  position {
+	x: -3.0
+	z: 3.0
+  }
+}
+collection_instances {
+  id: "tower1"
+  collection: "/main/scenes/blocksbuster/tower.collection"
+  position {
+	x: 3.0
+	z: 3.0
+  }
+}
+collection_instances {
+  id: "tower2"
+  collection: "/main/scenes/blocksbuster/tower.collection"
+  position {
+	x: -3.0
+	z: -3.0
+  }
+}
+collection_instances {
+  id: "tower3"
+  collection: "/main/scenes/blocksbuster/tower.collection"
+  position {
+	x: 3.0
+	z: -3.0
+  }
+}
+scale_along_z: 1
+embedded_instances {
+  id: "main"
+  data: "components {\n"
+  "  id: \"blocksbuster_main\"\n"
+  "  component: \"/main/scenes/blocksbuster/blocksbuster_main.script\"\n"
+  "}\n"
+  ""
+}
+embedded_instances {
+  id: "objects"
+  children: "buster"
+  data: ""
+}

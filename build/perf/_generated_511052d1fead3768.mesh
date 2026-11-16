@@ -1,0 +1,5 @@
+material: "/scene3d/materials/primitive_atomic_tangerine.material"
+vertices: "/scene3d/assets/meshes/icon_light_sun.buffer"
+primitive_type: PRIMITIVE_TRIANGLES
+position_stream: "position"
+normal_stream: "normal"

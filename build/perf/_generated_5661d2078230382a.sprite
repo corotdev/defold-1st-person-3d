@@ -1,0 +1,4 @@
+tile_set: "/scene3d/assets/blob_shadows.atlas"
+default_animation: "blob_rectangle"
+material: "/builtins/materials/sprite.material"
+blend_mode: BLEND_MODE_ALPHA

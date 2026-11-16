@@ -1,0 +1,6 @@
+material: "/scene3d/materials/sky.material"
+vertices: "/scene3d/assets/meshes/sky_sphere.buffer"
+textures: "/scene3d/assets/textures/sky.png"
+primitive_type: PRIMITIVE_TRIANGLES
+position_stream: "position"
+normal_stream: "normal"

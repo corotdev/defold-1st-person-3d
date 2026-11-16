@@ -1,0 +1,2 @@
+prototype: "/scene3d/fx/blob_shadows/blob_circle.go"
+load_dynamically: false

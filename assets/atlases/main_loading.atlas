@@ -1,0 +1,7 @@
+images {
+  image: "/scene3d/assets/ui/white.png"
+}
+images {
+  image: "/assets/textures/loading_text.png"
+}
+margin: 4

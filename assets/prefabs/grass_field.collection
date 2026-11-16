@@ -1,0 +1,31 @@
+name: "grass_field"
+embedded_instances {
+  id: "cube_grass"
+  data: "embedded_components {\n"
+  "  id: \"mesh\"\n"
+  "  type: \"mesh\"\n"
+  "  data: \"material: \\\"/assets/materials/mesh_normalmapped_texture.material\\\"\\n"
+  "vertices: \\\"/scene3d/assets/meshes/primitive_cube.buffer\\\"\\n"
+  "textures: \\\"/assets/substances/grass_albedo.png\\\"\\n"
+  "textures: \\\"/assets/normalmaps/grass_normal.png\\\"\\n"
+  "position_stream: \\\"position\\\"\\n"
+  "normal_stream: \\\"normal\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+  scale3 {
+    x: 7.826705
+    y: 0.132867
+    z: 6.561038
+  }
+}
+instances {
+  id: "sphere"
+  prototype: "/assets/primatives/sphere.go"
+  scale3 {
+    x: 5.201652
+    y: 0.251701
+    z: 4.288727
+  }
+}
+scale_along_z: 0

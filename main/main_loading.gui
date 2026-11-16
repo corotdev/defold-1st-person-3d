@@ -1,0 +1,45 @@
+script: "/main/main_loading.gui_script"
+textures {
+  name: "main_loading"
+  texture: "/assets/atlases/main_loading.atlas"
+}
+nodes {
+  position {
+    x: 960.0
+    y: 540.0
+  }
+  size {
+    x: 1924.0
+    y: 1084.0
+  }
+  color {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  type: TYPE_BOX
+  texture: "main_loading/white"
+  id: "cover"
+  adjust_mode: ADJUST_MODE_ZOOM
+  inherit_alpha: true
+  slice9 {
+    x: 2.0
+    y: 2.0
+    z: 2.0
+    w: 2.0
+  }
+}
+nodes {
+  position {
+    y: -50.0
+  }
+  type: TYPE_BOX
+  texture: "main_loading/loading_text"
+  id: "text"
+  parent: "cover"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT
+max_nodes: 10

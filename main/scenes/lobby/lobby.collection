@@ -1,0 +1,150 @@
+name: "lobby"
+instances {
+  id: "blob_shadows"
+  prototype: "/scene3d/fx/blob_shadows.go"
+}
+instances {
+  id: "main_camera"
+  prototype: "/scene3d/camera/camera3d.go"
+  component_properties {
+    id: "camera3d"
+    properties {
+      id: "field_of_view"
+      value: "60.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+}
+instances {
+  id: "env_buildings_chunked_floor"
+  prototype: "/scene3d/prefabs/buildings/buildings_chunked_floor.go"
+  component_properties {
+    id: "chunked_floor"
+    properties {
+      id: "keep_chunks_at"
+      value: "0.0, 0.0, 0.0"
+      type: PROPERTY_TYPE_VECTOR3
+    }
+    properties {
+      id: "keep_chunks_radius"
+      value: "3.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+    properties {
+      id: "inversely_skip_chunks"
+      value: "true"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+  }
+}
+instances {
+  id: "env_sky"
+  prototype: "/scene3d/prefabs/env/env_sky.go"
+  scale3 {
+    x: 200.0
+    y: 200.0
+    z: 200.0
+  }
+}
+instances {
+  id: "light_directional"
+  prototype: "/scene3d/camera/light_directional.go"
+  position {
+    x: 4.01
+    y: 2.42
+    z: 0.85
+  }
+  rotation {
+    x: -0.43348113
+    y: 0.42721757
+    z: 0.24543284
+    w: 0.75454754
+  }
+  component_properties {
+    id: "light_directional"
+    properties {
+      id: "ambient_light_intensity"
+      value: "0.9"
+      type: PROPERTY_TYPE_NUMBER
+    }
+    properties {
+      id: "directional_light_intensity"
+      value: "0.35"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+}
+instances {
+  id: "cube"
+  prototype: "/assets/primatives/cube.go"
+  position {
+    x: 1.0
+    y: 1.0
+    z: -3.0
+  }
+}
+collection_instances {
+  id: "player"
+  collection: "/scene3d/prefabs/characters/player.collection"
+  position {
+    x: 1.0
+    y: 2.0
+  }
+  instance_properties {
+    id: "body"
+    properties {
+      id: "physics_movement"
+      properties {
+        id: "jump_impulse"
+        value: "500.0"
+        type: PROPERTY_TYPE_NUMBER
+      }
+      properties {
+        id: "jumping"
+        value: "false"
+        type: PROPERTY_TYPE_BOOLEAN
+      }
+      properties {
+        id: "debug_mesh_id"
+        value: ""
+        type: PROPERTY_TYPE_HASH
+      }
+    }
+  }
+  instance_properties {
+    id: "look"
+    properties {
+      id: "mouse_look"
+      properties {
+        id: "camera_object_id"
+        value: "/main_camera"
+        type: PROPERTY_TYPE_HASH
+      }
+    }
+  }
+}
+collection_instances {
+  id: "all_primitives"
+  collection: "/main/scenes/playground/all_primitives.collection"
+}
+collection_instances {
+  id: "env_floor"
+  collection: "/main/scenes/playground/env_floor.collection"
+}
+collection_instances {
+  id: "debug_ui"
+  collection: "/scene3d/debug/photo_mode/debug_ui.collection"
+}
+collection_instances {
+  id: "grass_field"
+  collection: "/assets/prefabs/grass_field.collection"
+}
+scale_along_z: 0
+embedded_instances {
+  id: "main"
+  data: "components {\n"
+  "  id: \"lobby_main\"\n"
+  "  component: \"/main/scenes/lobby/lobby_main.script\"\n"
+  "}\n"
+  ""
+}

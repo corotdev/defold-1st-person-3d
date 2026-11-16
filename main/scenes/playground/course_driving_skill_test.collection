@@ -1,0 +1,170 @@
+name: "default"
+instances {
+  id: "buildings_ramp_1x2"
+  prototype: "/scene3d/prefabs/buildings/buildings_ramp_1x2.go"
+  position {
+	x: 1.0
+	y: 1.0
+	z: -18.5
+  }
+  rotation {
+	y: -1.0
+	w: 6.123234E-17
+  }
+}
+instances {
+  id: "buildings_ramp_1x"
+  prototype: "/scene3d/prefabs/buildings/buildings_ramp_1x2.go"
+  position {
+	y: 1.0
+	z: -18.5
+  }
+  rotation {
+	y: -1.0
+	w: 6.123234E-17
+  }
+}
+instances {
+  id: "buildings_ramp_1x1"
+  prototype: "/scene3d/prefabs/buildings/buildings_ramp_1x2.go"
+  position {
+	x: -1.0
+	y: 1.0
+	z: -18.5
+  }
+  rotation {
+	y: -1.0
+	w: 6.123234E-17
+  }
+}
+instances {
+  id: "buildings_block_3x3"
+  prototype: "/scene3d/prefabs/buildings/buildings_block_3x3.go"
+  position {
+	y: -1.0
+	z: -16.0
+  }
+}
+instances {
+  id: "buildings_block_3x"
+  prototype: "/scene3d/prefabs/buildings/buildings_block_3x3.go"
+  position {
+	y: -1.0
+	z: -13.0
+  }
+}
+instances {
+  id: "buildings_block_3x1"
+  prototype: "/scene3d/prefabs/buildings/buildings_block_3x3.go"
+  position {
+	y: -1.0
+	z: -10.0
+  }
+}
+instances {
+  id: "buildings_block_3x2"
+  prototype: "/scene3d/prefabs/buildings/buildings_block_3x3.go"
+  position {
+	y: -1.0
+	z: -7.0
+  }
+}
+instances {
+  id: "buildings_block_3x4"
+  prototype: "/scene3d/prefabs/buildings/buildings_block_3x3.go"
+  position {
+	y: -1.0
+	z: -4.0
+  }
+}
+instances {
+  id: "buildings_block_3x5"
+  prototype: "/scene3d/prefabs/buildings/buildings_block_3x3.go"
+  position {
+	y: -1.0
+	z: -1.0
+  }
+}
+instances {
+  id: "buildings_block_3x6"
+  prototype: "/scene3d/prefabs/buildings/buildings_block_3x3.go"
+  position {
+	y: -1.0
+	z: 2.0
+  }
+}
+instances {
+  id: "buildings_ramp_1x3"
+  prototype: "/scene3d/prefabs/buildings/buildings_ramp_1x2.go"
+  position {
+	x: -1.0
+	z: -20.5
+  }
+  rotation {
+	y: -1.0
+	w: 6.123234E-17
+  }
+}
+instances {
+  id: "buildings_ramp_1x4"
+  prototype: "/scene3d/prefabs/buildings/buildings_ramp_1x2.go"
+  position {
+	x: 1.0
+	z: -20.5
+  }
+  rotation {
+	y: -1.0
+	w: 6.123234E-17
+  }
+}
+instances {
+  id: "buildings_ramp_1x5"
+  prototype: "/scene3d/prefabs/buildings/buildings_ramp_1x2.go"
+  position {
+	z: -20.5
+  }
+  rotation {
+	y: -1.0
+	w: 6.123234E-17
+  }
+}
+instances {
+  id: "buildings_block_3x7"
+  prototype: "/scene3d/prefabs/buildings/buildings_block_3x3.go"
+  position {
+	y: -2.0
+	z: -18.0
+  }
+}
+instances {
+  id: "buildings_ramp_1x6"
+  prototype: "/scene3d/prefabs/buildings/buildings_ramp_1x2.go"
+  position {
+	z: 4.5
+  }
+}
+instances {
+  id: "buildings_ramp_1x7"
+  prototype: "/scene3d/prefabs/buildings/buildings_ramp_1x2.go"
+  position {
+	x: 1.0
+	z: 4.5
+  }
+}
+instances {
+  id: "buildings_ramp_1x8"
+  prototype: "/scene3d/prefabs/buildings/buildings_ramp_1x2.go"
+  position {
+	x: -1.0
+	z: 4.5
+  }
+}
+collection_instances {
+  id: "star2"
+  collection: "/main/scenes/playground/star.collection"
+  position {
+	y: 3.5
+	z: 2.0
+  }
+}
+scale_along_z: 1

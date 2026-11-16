@@ -1,0 +1,766 @@
+{
+  :code {
+    :breakpoints [
+    ]
+    :find {
+      :term "texture0"
+    }
+  }
+  :scene {
+    :resource-settings {
+      "/assets/atlases/main_loading.atlas" {
+        :camera {
+          :focus-point [
+            256.0
+            64.0
+            0.0
+          ]
+          :fov-x 563.2
+          :fov-y 371.2815286624204
+          :position [
+            256.0
+            64.0
+            5000.0
+          ]
+          :projection :orthographic
+          :rotation [
+            0.0
+            0.0
+            0.0
+            1.0
+          ]
+        }
+      }
+      "/assets/prefabs/grass_field.collection" {
+        :camera {
+          :focus-point [
+            0.15778868870836787
+            -0.18921113162753503
+            -0.05442895698444483
+          ]
+          :fov-x 3.9823499845964427
+          :fov-y 2.625307155450521
+          :position [
+            3692.516498126836
+            2396.975744975514
+            2370.7818337540516
+          ]
+          :projection :orthographic
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+      "/assets/primatives/cube.go" {
+        :camera {
+          :focus-point [
+            0.0
+            0.0
+            0.0
+          ]
+          :fov-x 2.668066432118616
+          :fov-y 1.758884558753355
+          :position [
+            3692.3013130206414
+            2397.1276930210133
+            2370.7994088951878
+          ]
+          :projection :orthographic
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+      "/assets/primatives/cube_normal.go" {
+        :camera {
+          :focus-point [
+            0.8350748425268326
+            0.4893275111994828
+            0.6918217035060278
+          ]
+          :fov-x 57.33913043478261
+          :fov-y 37.8
+          :position [
+            1.7510821843351563
+            0.9282041731030407
+            1.0909823972891293
+          ]
+          :projection :perspective
+          :rotation [
+            -0.1718653669138662
+            0.5362695151736351
+            0.11258185913016822
+            0.818659042425961
+          ]
+        }
+      }
+      "/assets/primatives/cylinder.go" {
+        :camera {
+          :focus-point [
+            0.0
+            0.0
+            0.0
+          ]
+          :fov-x 57.33913043478261
+          :fov-y 37.8
+          :position [
+            1.93154740512864
+            1.254005397362107
+            1.240232326160367
+          ]
+          :projection :perspective
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+      "/assets/primatives/cylinder_normal.go" {
+        :camera {
+          :focus-point [
+            0.0
+            0.0
+            0.0
+          ]
+          :fov-x 57.33913043478261
+          :fov-y 37.8
+          :position [
+            1.93154740512864
+            1.254005397362107
+            1.240232326160367
+          ]
+          :projection :perspective
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+      "/assets/primatives/skybox.go" {
+        :camera {
+          :focus-point [
+            0.0
+            0.0
+            0.0
+          ]
+          :fov-x 57.33913043478261
+          :fov-y 37.8
+          :position [
+            1.9313691949091663
+            1.253889699152296
+            1.2401178986942796
+          ]
+          :projection :perspective
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+      "/assets/primatives/sphere.go" {
+        :camera {
+          :focus-point [
+            0.0
+            0.0
+            0.0
+          ]
+          :fov-x 57.33913043478261
+          :fov-y 37.8
+          :position [
+            1.93154740512864
+            1.254005397362107
+            1.240232326160367
+          ]
+          :projection :perspective
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+      "/assets/primatives/sphere_normal.go" {
+        :camera {
+          :focus-point [
+            0.0
+            0.0
+            0.0
+          ]
+          :fov-x 57.33913043478261
+          :fov-y 37.8
+          :position [
+            1.93154740512864
+            1.254005397362107
+            1.240232326160367
+          ]
+          :projection :perspective
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+      "/main/main.collection" {
+        :camera {
+          :focus-point [
+            960.0
+            540.0
+            0.0
+          ]
+          :fov-x 3210.3845410628023
+          :fov-y 2116.4
+          :position [
+            960.0
+            540.0
+            5000.0
+          ]
+          :projection :orthographic
+          :rotation [
+            0.0
+            0.0
+            0.0
+            1.0
+          ]
+        }
+      }
+      "/main/main_loading.gui" {
+        :camera {
+          :focus-point [
+            960.0
+            540.0
+            0.0
+          ]
+          :fov-x 3428.4998389694047
+          :fov-y 2116.4
+          :position [
+            960.0
+            540.0
+            5000.0
+          ]
+          :projection :orthographic
+          :rotation [
+            0.0
+            0.0
+            0.0
+            1.0
+          ]
+        }
+      }
+      "/main/scenes/basic_3d/basic_3d.collection" {
+        :camera {
+          :focus-point [
+            -340.3534109270155
+            -155.48514657067142
+            -348.14232703376456
+          ]
+          :fov-x 57.33913043478261
+          :fov-y 37.8
+          :position [
+            7.183504005345387
+            3.729922807898217
+            7.0923492916309145
+          ]
+          :projection :perspective
+          :rotation [
+            -0.1429698133362408
+            0.37308977069488386
+            0.05830479184277332
+            0.9148574789143992
+          ]
+        }
+      }
+      "/main/scenes/blocksbuster/blocksbuster.collection" {
+        :camera {
+          :focus-point [
+            7.099999785423279
+            0.1336279094985935
+            3.155013297827983
+          ]
+          :fov-x 37.155121545321876
+          :fov-y 24.493981400896907
+          :position [
+            7.099999785423279
+            0.1336279094985935
+            5000.0
+          ]
+          :projection :orthographic
+          :rotation [
+            0.0
+            0.0
+            0.0
+            1.0
+          ]
+        }
+      }
+      "/main/scenes/blocksbuster/buster.go" {
+        :camera {
+          :focus-point [
+            0.0
+            0.0
+            0.0
+          ]
+          :fov-x 57.33913043478261
+          :fov-y 37.8
+          :position [
+            12.624435499753417
+            8.196076479050134
+            8.106056814730891
+          ]
+          :projection :perspective
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+      "/main/scenes/lobby/lobby.collection" {
+        :camera {
+          :focus-point [
+            -0.36692444618509545
+            2.216303088357971
+            1.2843284315975758
+          ]
+          :fov-x 7.89761907181768
+          :fov-y 5.206392190656878
+          :position [
+            3691.7312815561036
+            2399.2121343199187
+            2371.953323810058
+          ]
+          :projection :orthographic
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+      "/main/scenes/playground/course_bridge_jump.collection" {
+        :camera {
+          :focus-point [
+            1.498488426208496
+            3.484409766779806
+            -18.000000001057835
+          ]
+          :fov-x 25.303325462341306
+          :fov-y 16.680854683772772
+          :position [
+            1.498488426208496
+            3.484409766779806
+            5000.0
+          ]
+          :projection :orthographic
+          :rotation [
+            0.0
+            0.0
+            0.0
+            1.0
+          ]
+        }
+      }
+      "/main/scenes/playground/course_driving_skill_test.collection" {
+        :camera {
+          :focus-point [
+            1.1102230246251565E-16
+            0.988527968518268
+            -8.0
+          ]
+          :fov-x 9.973309761656745
+          :fov-y 6.5747615307737135
+          :position [
+            1.1102230246251565E-16
+            0.988527968518268
+            5000.0
+          ]
+          :projection :orthographic
+          :rotation [
+            0.0
+            0.0
+            0.0
+            1.0
+          ]
+        }
+      }
+      "/main/scenes/playground/course_garage.collection" {
+        :camera {
+          :focus-point [
+            3.4499999421682155
+            0.48852796851561386
+            6.437499992549419
+          ]
+          :fov-x 16.6477058969313
+          :fov-y 10.974761530779551
+          :position [
+            3.4499999421682155
+            0.48852796851561386
+            5000.0
+          ]
+          :projection :orthographic
+          :rotation [
+            0.0
+            0.0
+            0.0
+            1.0
+          ]
+        }
+      }
+      "/main/scenes/playground/course_high_ramp.collection" {
+        :camera {
+          :focus-point [
+            1.5001415172046695
+            7.738527964405996
+            -3.0625000074505806
+          ]
+          :fov-x 25.82500059663625
+          :fov-y 17.024761539820712
+          :position [
+            1.5001415172046695
+            7.738527964405996
+            5000.0
+          ]
+          :projection :orthographic
+          :rotation [
+            0.0
+            0.0
+            0.0
+            1.0
+          ]
+        }
+      }
+      "/main/scenes/playground/course_rocket_league.collection" {
+        :camera {
+          :focus-point [
+            0.0
+            1.5000000000187663
+            -0.9998917542397976
+          ]
+          :fov-x 5.720000003278255
+          :fov-y 3.7708280276388493
+          :position [
+            0.0
+            1.5000000000187663
+            5000.0
+          ]
+          :projection :orthographic
+          :rotation [
+            0.0
+            0.0
+            0.0
+            1.0
+          ]
+        }
+      }
+      "/main/scenes/playground/course_suspension_test.collection" {
+        :camera {
+          :focus-point [
+            0.0
+            -2.6408509989755364
+            -1.4603539543764494
+          ]
+          :fov-x 15.95
+          :fov-y 10.51480891719745
+          :position [
+            0.0
+            -2.6408509989755364
+            5000.0
+          ]
+          :projection :orthographic
+          :rotation [
+            0.0
+            0.0
+            0.0
+            1.0
+          ]
+        }
+      }
+      "/main/scenes/playground/playground.collection" {
+        :camera {
+          :focus-point [
+            -13.367988246339603
+            -1.387020527596417
+            8.303958730754946
+          ]
+          :fov-x 51.24986398461466
+          :fov-y 33.78573835928419
+          :position [
+            3678.9333247743057
+            2395.740672493421
+            2379.1033676259426
+          ]
+          :projection :orthographic
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+      "/main/scenes/shadows/shadows.collection" {
+        :camera {
+          :focus-point [
+            7.099999785423279
+            5.532087411063096
+            3.155013297827983
+          ]
+          :fov-x 57.33913043478261
+          :fov-y 37.8
+          :position [
+            40.46389304402874
+            27.1927011305238
+            24.577722797999286
+          ]
+          :projection :perspective
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+      "/scene3d/prefabs/primitives/primitive_cube.go" {
+        :camera {
+          :focus-point [
+            0.0
+            0.0
+            0.0
+          ]
+          :fov-x 57.33913043478261
+          :fov-y 37.8
+          :position [
+            1.93154740512864
+            1.254005397362107
+            1.240232326160367
+          ]
+          :projection :perspective
+          :rotation [
+            -0.21711740038440563
+            0.46452135963892854
+            0.11861177641841196
+            0.8503006452922328
+          ]
+        }
+      }
+    }
+  }
+  :search-in-files {
+    :exts ""
+    :include-libraries true
+    :term "galactic"
+  }
+  :workflow {
+    :open-tabs [
+      [
+        [
+          "/assets/materials/mesh_normalmapped_texture.fp"
+          :code
+        ]
+        [
+          "/assets/materials/mesh_normalmapped_texture.material"
+          :form
+        ]
+        [
+          "/assets/materials/mesh_texture_aa.material"
+          :form
+        ]
+        [
+          "/scene3d/assets/shaders/basic_grid.fp"
+          :code
+        ]
+        [
+          "/assets/primatives/cube.go"
+          :scene
+        ]
+        [
+          "/assets/prefabs/grass_field.collection"
+          :scene
+        ]
+        [
+          "/assets/primatives/cube_normal.go"
+          :scene
+        ]
+        [
+          "/assets/primatives/cylinder.go"
+          :scene
+        ]
+        [
+          "/assets/primatives/cylinder_normal.go"
+          :scene
+        ]
+        [
+          "/assets/primatives/sphere_normal.go"
+          :scene
+        ]
+        [
+          "/assets/primatives/skybox.go"
+          :scene
+        ]
+        [
+          "/main/scenes/lobby/lobby.collection"
+          :scene
+        ]
+        [
+          "/main/scenes/lobby/lobby_main.script"
+          :code
+        ]
+        [
+          "/main/scenes/basic_3d/basic_3d.collection"
+          :scene
+        ]
+        [
+          "/game.project"
+          :form
+        ]
+      ]
+    ]
+    :recent-files [
+      [
+        "/scene3d/materials/basic_grid_med_champagne.material"
+        :form
+      ]
+      [
+        "/assets/materials/basic_grid_med_champagne_copy.material"
+        :form
+      ]
+      [
+        "/assets/prefabs/cube_copy.go"
+        :scene
+      ]
+      [
+        "/assets/prefabs/cube_copy_copy.go"
+        :scene
+      ]
+      [
+        "/assets/materials/basic_grid_med_champagne.material"
+        :form
+      ]
+      [
+        "/main/scenes/playground/playground.collection"
+        :scene
+      ]
+      [
+        "/assets/prefabs/sphere.go"
+        :scene
+      ]
+      [
+        "/assets/prefabs/cylinder.go"
+        :scene
+      ]
+      [
+        "/scene3d/prefabs/primitives/primitive_cube.go"
+        :scene
+      ]
+      [
+        "/scene3d/materials/primitive_pacific_blue.material"
+        :form
+      ]
+      [
+        "/main/scenes/playground/playground_main.script"
+        :code
+      ]
+      [
+        "/scene3d/scripts/input/keyboard_input.script"
+        :code
+      ]
+      [
+        "/main/main.collection"
+        :scene
+      ]
+      [
+        "/assets/materials/mesh_texture_sharp.material"
+        :form
+      ]
+      [
+        "/assets/prefabs/cube.go"
+        :scene
+      ]
+      [
+        "/assets/prefabs/cube_normal.go"
+        :scene
+      ]
+      [
+        "/assets/primatives/mesh_textures.script"
+        :code
+      ]
+      [
+        "/assets/materials/mesh_normalmapped_texture.fp"
+        :code
+      ]
+      [
+        "/assets/materials/mesh_normalmapped_texture.material"
+        :form
+      ]
+      [
+        "/assets/materials/mesh_texture_aa.material"
+        :form
+      ]
+      [
+        "/scene3d/assets/shaders/basic_grid.fp"
+        :code
+      ]
+      [
+        "/assets/primatives/cube.go"
+        :scene
+      ]
+      [
+        "/assets/prefabs/grass_field.collection"
+        :scene
+      ]
+      [
+        "/assets/primatives/cube_normal.go"
+        :scene
+      ]
+      [
+        "/assets/primatives/cylinder.go"
+        :scene
+      ]
+      [
+        "/assets/primatives/cylinder_normal.go"
+        :scene
+      ]
+      [
+        "/assets/primatives/sphere_normal.go"
+        :scene
+      ]
+      [
+        "/assets/primatives/skybox.go"
+        :scene
+      ]
+      [
+        "/main/scenes/lobby/lobby_main.script"
+        :code
+      ]
+      [
+        "/main/scenes/basic_3d/basic_3d.collection"
+        :scene
+      ]
+      [
+        "/main/scenes/lobby/lobby.collection"
+        :scene
+      ]
+      [
+        "/game.project"
+        :form
+      ]
+    ]
+  }
+}
